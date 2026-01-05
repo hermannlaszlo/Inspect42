@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inspect42 — Enterprise Discovery adatokhoz és folyamatokhoz</title>
+    <meta name="description" content="Komplex adat- és folyamatkörnyezetek gyors megértése: minták → anonimizált séma → formális leírás → tanulható dokumentáció." />
+    <link rel="stylesheet" href="../assets/styles.css" />
+  </head>
+  <body>
+<header class="nav">
+  <div class="nav-inner container">
+    <a class="brand" href="index.html" aria-label="Inspect42">
+      <span>Inspect42</span>
+      <span class="badge">enterprise discovery</span>
+    </a>
+    <nav class="nav-links">
+      <a data-nav href="index.html">Home</a>
+      <a data-nav href="security.html">Security & Compliance</a>
+      <a class="btn primary" href="index.html#demo">Demo</a>
+    </nav>
+  </div>
+  <div class="container" style="padding: 8px var(--pad) 10px;">
+    <div class="pills" style="gap:6px; justify-content:flex-end;">
+      <a class="pill" href="../index.html" aria-label="Deutsch">DE</a>
+      <a class="pill" href="../en/index.html" aria-label="English">EN</a>
+      <a class="pill" href="../hu/index.html" aria-label="Magyar">HU</a>
+    </div>
+  </div>
+</header>
+
+
+    <main class="container">
+      <!-- HERO -->
+      <section class="hero reveal">
+        <div class="hero-grid">
+          <div class="panel hero-main">
+            <div class="kicker"><span class="kdot"></span> Átláthatóság napok alatt, nem hónapok alatt</div>
+            <h1>Rendet tesz az adat‑ és folyamatkomplexitásban.</h1>
+            <p class="subhead">Az Inspect42 a meglévő vállalati artefaktokból (fájlok, konfigok, exportok, logok, üzenetek) <b>anonimizált sémákat</b> és <b>formális leírást</b> készít. A végeredmény <b>kereshető, csapatbarát dokumentáció</b> – <b>onboardinghoz</b>, <b>refaktor/migrációhoz</b>, <b>integrációkhoz</b> és <b>audit-előkészítéshez</b>.</p>
+
+            <div class="hero-actions">
+              <a class="btn primary" href="#demo">Demo flow</a>
+              <a class="btn ghost" href="security.html">Security & Compliance</a>
+            </div>
+
+            <div class="hr"></div>
+
+            <div class="pills">
+              <span class="pill">Discovery</span>
+              <span class="pill">Anonymization</span>
+              <span class="pill">Key insights</span>
+              <span class="pill">Formal description</span>
+              <span class="pill">Docs</span>
+              <span class="pill">Governance</span>
+            </div>
+          </div>
+
+          <aside class="panel hero-side">
+            <div class="stat"><b>Gyorsabb onboarding</b><p>Az új belépők hamarabb értik a domént, entitásokat és flow-kat.</p></div><div class="stat"><b>Kevesebb kockázat</b><p>Átlátható interfészek, data contractok és folyamatutak – kevesebb meglepetés.</p></div><div class="stat"><b>Jobb automatizálás</b><p>A formális leírás alap a checkekhez, szabályokhoz, alertekhez és runbookokhoz.</p></div>
+          </aside>
+        </div>
+      </section>
+
+      <!-- OUTPUTS / FEATURES -->
+      <section class="section reveal" id="product">
+        <div class="section-title">
+          <div>
+            <h2>Amit kapsz</h2>
+            <p>Azonnal használható kimenetek csapatoknak.</p>
+          </div>
+          <a class="btn" href="security.html">Security & Compliance</a>
+        </div>
+
+        <div class="grid">
+          <div class="card"><h3>Anonimizált séma</h3><p>A struktúra és kapcsolatok megmaradnak, az érzékeny kitettség csökken.</p></div><div class="card"><h3>Entitás- és interfész-katalógus</h3><p>Adatobjektumok, API-k, eventek, integrációk – kapcsolatokkal.</p></div><div class="card"><h3>Folyamat / flow térkép</h3><p>Tipikus utak, kivételek, átmenetek (pl. státusz mappingok) kiemelve.</p></div><div class="card"><h3>Formális leírás</h3><p>Egységes, tanulható reprezentáció — közös nyelv csapatok között.</p></div><div class="card"><h3>Kereshető dokumentáció</h3><p>Hierarchia, TOC, összefoglalók — könnyű megosztás és verziózás.</p></div><div class="card"><h3>Export bundle (ZIP)</h3><p>Review-hoz, auditokhoz, tudásátadáshoz — build nélkül.</p></div>
+        </div>
+      </section>
+
+      <!-- DEMO STEPPER (STATIC) -->
+      <section class="section reveal" id="demo">
+        <div class="section-title">
+          <div>
+            <h2>Így néz ki egy tipikus projekt (storyboard)</h2>
+            <p>Általános enterprise példa — kattintható, implementációs részletek nélkül.</p>
+          </div>
+          <small></small>
+        </div>
+
+        <div class="panel stepper">
+          <div class="steps" role="list" aria-label="Demo steps">
+            <div class="step" role="listitem" tabindex="0" data-step="1" data-active="true">
+              <div class="step-num">1</div>
+              <div class="step-body">
+                <b>Scope</b>
+                <small>források & célok</small>
+              </div>
+            </div><div class="step" role="listitem" tabindex="0" data-step="2" data-active="false">
+              <div class="step-num">2</div>
+              <div class="step-body">
+                <b>Séma</b>
+                <small>anonimizált</small>
+              </div>
+            </div><div class="step" role="listitem" tabindex="0" data-step="3" data-active="false">
+              <div class="step-num">3</div>
+              <div class="step-body">
+                <b>Insight</b>
+                <small>formalizálás</small>
+              </div>
+            </div><div class="step" role="listitem" tabindex="0" data-step="4" data-active="false">
+              <div class="step-num">4</div>
+              <div class="step-body">
+                <b>Doksi</b>
+                <small>bundle</small>
+              </div>
+            </div>
+
+            <div class="hr"></div>
+            <div class="pills">
+              <span class="pill">No-build</span>
+              <span class="pill">static</span>
+              <span class="pill">scroll reveal</span>
+            </div>
+          </div>
+
+          <div class="demo-panel">
+            <div data-panel="1">
+              <h3>Step 1 — Scope és minták</h3>
+              <p>Egyeztetjük a scope-ot: mely adat/folyamat területek legyenek láthatók? Utána gyűjtünk reprezentatív artefaktokat.</p>
+              <div class="codebox">Példák:
+- konfigok & exportok
+- repo/fájlstruktúra snapshot
+- integrációs logok, eventek, üzenetek
+- mintapéldányok (XML/JSON/CSV)</div>
+              <div class="hr"></div>
+
+              <button class="btn primary" type="button" data-next="2">Continue → Step 2</button>
+            </div>
+<div data-panel="2" hidden>
+              <h3>Step 2 — Anonimizált séma</h3>
+              <p>Anonimizált sémát készítünk: fókusz a struktúrán, kapcsolatokon és típusokon — nem a nyers tartalmon.</p>
+              <div class="codebox">Schema snippet (példa)
+{
+  "domain": "OrderProcessing",
+  "entities": [
+    {"name":"Order", "fields":[{"name":"order_id","type":"string"},{"name":"status","type":"enum"}]},
+    {"name":"Shipment", "fields":[{"name":"tracking_id","type":"string"},{"name":"carrier","type":"string"}]}
+  ],
+  "relations":[{"from":"Order","to":"Shipment","type":"1..n"}]
+}</div>
+              <div class="hr"></div>
+              <button class="btn" type="button" data-prev="1">← Back</button>
+              <button class="btn primary" type="button" data-next="3">Continue → Step 3</button>
+            </div>
+<div data-panel="3" hidden>
+              <h3>Step 3 — Kulcsinfó & formális leírás</h3>
+              <p>Kinyerjük a kulcsinformációkat: entitások, interfészek, szabályok/státusz mappingok, függőségek, kivételek — majd formalizáljuk.</p>
+              <div class="codebox">Key insights (példa)
+- entitások: Order, Customer, Invoice, Shipment
+- interfészek: /orders, /shipments, /invoice
+- flow: Created → Validated → Packed → Shipped → Closed
+- megjegyzés: státusz mapping inkonzisztens 2 integráció között</div>
+              <div class="hr"></div>
+              <button class="btn" type="button" data-prev="2">← Back</button>
+              <button class="btn primary" type="button" data-next="4">Continue → Step 4</button>
+            </div>
+<div data-panel="4" hidden>
+              <h3>Step 4 — Dokumentáció & bundle</h3>
+              <p>Kereshető dokumentációt kapsz (HTML/PDF) és egy bundle-t csapat review-hoz és governance-hez.</p>
+              <div class="codebox">Deliverables (példa)
+- Schema/descriptor (JSON) + verziózás
+- Dokumentáció (HTML/PDF)
+- Összefoglaló: entitások, interfészek, flow-k
+- Tudáscsomag: TOC + ZIP</div>
+              <div class="hr"></div>
+              <button class="btn" type="button" data-prev="3">← Back</button>
+              <a class="btn primary" href="#use-cases">Use-case-ek</a>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- USE CASES -->
+      <section class="section reveal" id="use-cases">
+        <div class="section-title">
+          <div>
+            <h2>Use-case-ek</h2>
+            <p>Két tipikus szcenárió, ami gyorsan értéket ad.</p>
+          </div>
+        </div>
+
+        <div class="grid">
+          <div class="card">
+            <h3>IT fejlesztés — legacy modernizáció</h3>
+            <p><b>Cél:</b> refaktor/migráció gyorsítása, kockázat csökkentése.<br><b>Eredmény:</b> modul térkép, data contractok, interfész katalógus, kritikus függőségek.</p>
+            <div class="codebox">Tipikus quick win
+- gyorsabb onboarding
+- integrációs törések korai jelzése
+- tisztább refaktor/migráció roadmap</div>
+          </div><div class="card">
+            <h3>Logisztika / speditőr — order → shipment átláthatóság</h3>
+            <p><b>Cél:</b> end-to-end státusz, tracking, számlázás átlátása.<br><b>Eredmény:</b> formalizált EDI/XML, státusz mappingok, exception flow-k.</p>
+            <div class="codebox">Tipikus quick win
+- SLA/késés okok láthatók
+- carrier mapping stabilizálás
+- automatizálási pontok (alert/exception)</div>
+          </div><div class="card">
+            <h3>Általános érték</h3>
+            <p><b>Egy közös nyelv</b> Dev/Ops/Audit/Business között — kevesebb tudássziget, gyorsabb döntés.</p>
+            <div class="codebox">Hatások
+- jobb doksi kevesebb munkával
+- tervezhető automatizálás
+- governance-kész kimenetek</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA -->
+      <section class="section reveal">
+        <div class="panel" style="padding: 18px;">
+          <div class="section-title" style="margin-bottom: 6px;">
+            <div>
+              <h2>Indítsuk el a PoC-ot</h2>
+              <p>Mintákból gyorsan átláthatóság – a produktív rendszerek zavarása nélkül.</p>
+            </div>
+            <a class="btn primary" href="index.html#demo">Demo flow</a>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="footgrid">
+          <div>
+            <b>Inspect42</b> <span class="badge">enterprise discovery</span><br />
+            <small>Schema → formal description → documentation.</small>
+          </div>
+          <div>
+            <small>© Inspect42 — Client-facing landing</small>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <script src="../assets/main.js"></script>
+  
+<section id="capabilities">
+<h2>Mit tesz lehetővé az Inspect42?</h2>
+<ul>
+<li>Determinista rendszermegértés (nem csak monitoring)</li>
+<li>Privacy-first AI közvetítés – az értelem adat nélkül</li>
+<li>Visszajátszható folyamat-tudás audit és megfelelőség célokra</li>
+<li>A rendszer valós működésének és az emberi fókusznak az összekapcsolása</li>
+</ul>
+</section>
+
+<section id="principles">
+<h2>Tervezési alapelvek</h2>
+<ul>
+<li>Az értelem nem hagyja el a vállalatot</li>
+<li>Nincs fekete doboz intelligencia</li>
+<li>Audit-kész alapértelmezésben</li>
+<li>Ember a döntési körben</li>
+</ul>
+</section>
+
+<section id="status">
+<h2>Fejlesztési állapot</h2>
+<p>Az Inspect42 jelenleg zárt fejlesztési fázisban van. Korlátozott számú design partnerrel dolgozunk valós vállalati problémák validálásán.</p>
+</section>
+
+</body>
+</html>
